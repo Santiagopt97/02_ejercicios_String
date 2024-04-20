@@ -119,3 +119,56 @@ console.info(typeof(negativo))
 console.info("Casa".indexOf("a"))
 
 // # Punto 26 Comprueba si la cadena "Javascript" incluye el substring "Script" utilizando el método includes() e imprime el resultado en consola.
+console.info("Javascript".includes("Script"))
+
+// # Punto 27 Concatena las cadenas "Hola" y "Mundo" utilizando el método concat() y muestra el resultado en consola.
+console.info("Hola".concat("Mundo"))
+
+// # Punto 28 Concatena las cadenas "Hola" y "Mundo" utilizando el operador + y muestra el resultado en consola.
+console.info("Hola" + "Mundo")
+
+// # Punto 29 Utiliza template strings para concatenar las cadenas "Hola" y "Mundo" e imprime el resultado en consola.
+console.info(`Hola Mundo`)
+
+// # Punto 30 Declara una variable cadenaConEspacios con el valor " Ejemplo con espacios ". Utiliza el método trimStart() y trimEnd() para eliminar los espacios en blanco al principio y al final, respectivamente, e imprime el resultado en consola.
+let cadenaConEspacios = " Ejemplo con espacios "
+console.info(cadenaConEspacios.trimStart())
+console.info(cadenaConEspacios.trimEnd())
+
+// # Punto 31 Reemplaza la palabra "azul" por "rojo" en la cadena "El cielo es azul" utilizando el método replace() e imprime el resultado en consola.
+let cadena = "El cielo es azul"
+console.info(cadena.replace("azul", "rojo"))
+
+// # Punto 32 Utiliza el método slice() para obtener los últimos cuatro caracteres de la cadena "Programación" e imprime el resultado en consola.
+
+// # Punto 33 Utiliza el método substring() para obtener una subcadena de la cadena "JavaScript" que comience en el índice 2 e imprime el resultado en consola.
+let cadena2 = "JavaScript"
+console.info(cadena2.substring(2))
+
+// # Punto 34 Repite la cadena "Hola" tres veces utilizando el método repeat() e imprime el resultado en consola.
+let cadena3 = "Hola"
+console.info(cadena3.repeat(3))
+
+// # Punto 35 Divide la cadena "Esto es una oración de ejemplo" en un array de palabras y muestra el resultado en consola.
+let cadena4 = "Esto es una oración de ejemplo"
+console.info(cadena4.split(" "))
+
+// # Punto 36 Convierte la cadena "Javascript" a mayúsculas utilizando el método toUpperCase() e imprime el resultado en consola.
+console.info(cadena2.toUpperCase())
+
+// # Punto 37 Convierte la cadena "EJEMPLO" a minúsculas utilizando el método toLowerCase() e imprime el resultado en consola.
+let cadena5 = "EJEMPLO"
+console.info(cadena5.toLowerCase())
+
+// # Punto 38 Declara una variable numero y asígnale un número. Muestra en consola su tipo de dato utilizando el operador typeof().
+let numero = 10
+console.info(typeof numero)
+
+// # Punto 39 Declara una variable booleana y asígnale un valor booleano. Muestra en consola su tipo de dato utilizando el operador typeof().
+console.info(typeof(varBoleana))
+
+// # Punto 40 Declara una variable arreglo y asígnale un array con al menos tres elementos. Muestra en consola la longitud del array.
+// # Punto 41 Declara una variable objeto y asígnale un objeto con al menos tres propiedades. Muestra en consola una de las propiedades del objeto.
+// # Punto 42 Declara una variable nulo y asígnale el valor null. Muestra en consola su tipo de dato utilizando el operador typeof().
+// # Punto 43 Declara una variable indefinido y no le asignes ningún valor. Muestra en consola su tipo de dato utilizando el operador typeof().
+// # Punto 44 Declara una variable decimal y asígnale un número decimal. Muestra en consola su tipo de dato utilizando el operador typeof().
