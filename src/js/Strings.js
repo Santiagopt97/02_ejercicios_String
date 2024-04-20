@@ -168,7 +168,17 @@ console.info(typeof numero)
 console.info(typeof(varBoleana))
 
 // # Punto 40 Declara una variable arreglo y asígnale un array con al menos tres elementos. Muestra en consola la longitud del array.
+console.info(arreglo.length)
+
 // # Punto 41 Declara una variable objeto y asígnale un objeto con al menos tres propiedades. Muestra en consola una de las propiedades del objeto.
+console.info(objeto.apellido)
+
 // # Punto 42 Declara una variable nulo y asígnale el valor null. Muestra en consola su tipo de dato utilizando el operador typeof().
+console.info(typeof nulo)
+
 // # Punto 43 Declara una variable indefinido y no le asignes ningún valor. Muestra en consola su tipo de dato utilizando el operador typeof().
+console.info(typeof indefinido)
+
 // # Punto 44 Declara una variable decimal y asígnale un número decimal. Muestra en consola su tipo de dato utilizando el operador typeof().
+
+console.info(typeof decimal)
